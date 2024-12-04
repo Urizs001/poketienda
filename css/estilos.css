@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#name{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+#total{
+    text-align: right;
+}
+
+hr{
+    color: #fff;
+}
+
+#mensajepago{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 20px 50px;
+    background-color: rgba(172, 184, 182, 0.8);
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#mensajepago h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: "roboto";
+}
+
+#paypal-button-container{
+    margin: 0 40px;
+    padding: 20px 0;
+}
+
+#mensajepago h4{
+    margin: 0 40px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "roboto";
+    padding: 10px 0;
+}
+p, strong{
+    margin: 0 40px;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+
+.mensaje{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: rgba(12, 185, 84,.7);
+    color: #04722e;
+    font-size: 12px;
+    font-family: "roboto";
+    font-weight: normal;
+    border-radius: 5px;
+}
+
+#email{
+    border: none;
+    font-size: 20px;
+    padding: 8px 15px;
+    text-align: center;
+    width: 100%;
+    border-radius: 8px;
+}
+#email:focus{
+    outline: 2px solid #4753ff;
+}
+
+.mensaje label,small{
+    padding: 10px 5px;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.contenido{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 80%;
+    border: 1px solid #5f5b5b;
+}
+
+h2{
+    margin: 10px 5px;
+}
+
+th,td{
+    padding: 10px 20px;
+    border: 1px solid #5f5b5b;
+}
+
+h1{
+    margin: 0 30px;
+}
+figcaption{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+nav{
+    width:100%;
+    top: 0;
+    position: sticky;
+    padding: 5px 20px;
+    display: flex;
+    background-color: rgba(8, 125, 214, 0.88);
+    color: #fff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.747);
+    top: 0;
+	z-index: 1;
+}
+
+.nav-link {
+    display: flex;
+    gap: 20px;
+}
+
+a,#usu{
+    color: #e4eee6;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 5px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+main{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.conten{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #3a3a3a;
+    width: 20%;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.747);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+img{
+    width: 50%;
+}
+
+figcaption{
+    padding: 5px;
+}
+h3{
+    padding: 5px;
+}
+button{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    min-width: 80px;
+    background-color: rgb(228, 101, 54);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 5px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(33, 151, 190);
+    cursor: pointer;
+
+}
+
+footer{
+    background-color: rgba(8, 56, 214, 0.88);
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.user-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: rgba(8, 25, 214, 0.88);
+    padding: 10px;
+}
+
+.nav-links:hover .user-menu {
+    display: block;
+}
+
+.user-menu a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 20px;
+}

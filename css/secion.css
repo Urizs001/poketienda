@@ -1,0 +1,92 @@
+#sesion form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ccc;
+	margin: 30px;
+	padding: 20px;
+	background-color: rgba(255,255 ,255 , .4);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+	border-radius: 20px;
+}
+
+#sesion form a{
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: right;
+	text-decoration: none;
+    color: #1628cf;
+    font-size: 16px;
+    padding: 0;
+}
+
+#sesion input:focus {
+    	outline: 1px solid #1668c4;	
+}
+
+#sesion input{
+	border-radius: 8px;
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+#sesion input[type="submit"]{
+	background-color: #1628cf;
+	color: #fff;
+	border: none;
+	cursor:pointer;
+}
+#sesion input[type="submit"]:hover{
+	background-color: #4a88f4;
+}
+
+#sesion h2{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+#sesion,#registro{
+	width: 28%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#sesion .error{
+	line-height: 1.5;
+	color: rgb(0, 110, 255);
+	padding: 0 0 10px 0;
+}
+
+.busqueda{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.busqueda input{
+	height: 70%;
+	border-radius: 10px 0 0 10px;
+	border: none;
+	padding: 15px 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.busqueda input:focus{
+	border: none;
+}
+
+.busqueda button{
+	height: 70%;
+	width: auto;
+	text-align: center;
+	align-items: center;
+	margin: 0;
+	border-radius: 0 10px 10px 0;
+}
